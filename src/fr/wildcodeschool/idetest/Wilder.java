@@ -12,7 +12,7 @@ public class Wilder {
     }
     
     // getters
-    public String getfirstname() {
+    public String getFirstname() {
         return this.firstname;
     }
     
@@ -29,9 +29,9 @@ public class Wilder {
     public String whoAmI() {
     	
     	if (this.isAware() == true) {
-    		 return "Je m'appelle " + this.getfirstname() + " et je suis aware." ;
+    		 return "Je m'appelle " + this.getFirstname() + " et je suis aware." ;
     	} else {
-    		return "Je m'appelle " + this.getfirstname() + " et je ne suis pas aware." ;
+    		return "Je m'appelle " + this.getFirstname() + " et je ne suis pas aware." ;
     	}
     }
 }
